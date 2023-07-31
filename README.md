@@ -7,3 +7,5 @@ Bu kaynak dosya Elmo firmasının geliştirdiği elmo solo quartet motor sürüc
 
 - ieee754Converter
 ieee754 standardında float to string ve string to float dönüşümü yapan projedir.
+- isPrime
+girilen iki sayı arasındaki asal sayıları gösteren ve sayısını veren projedir.
