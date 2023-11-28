@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1701211102 source:e:\githubrepos\cprogramming\011_givennumberssumavgminmax\givennumberssumavgminmax\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
