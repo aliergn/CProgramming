@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1700686762 source:e:\githubrepos\cprogramming\008_rootsofquadraticfunction\rootsofquadraticfunction\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

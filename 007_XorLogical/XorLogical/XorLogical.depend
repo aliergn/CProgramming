@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699742616 source:e:\githubrepos\cprogramming\007_xorlogical\xorlogical\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1700688973 source:e:\githubrepos\cprogramming\009_isleap\isleap\main.c
+	<stdio.h>
+	<stdlib.h>
+
