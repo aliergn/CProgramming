@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define POW(A) (A*A)
 #define REFVOLT 5.0
 #define R0  100
 #define ADCResolution 4096
-//y = 0,3869x + 100,04
+
+// Temperature (Celsius) = - 245,3 + 2,349 Resistance (ohms) + 0,001043 Resistance (ohms)^2
 
 float getVoltage(int ADCValue);
 float getResistance(float Voltage);
@@ -13,7 +15,7 @@ float getTemperature(float Resist);
 
 int main()
 {
-    int adcRaw = 2250;
+    int adcRaw = 1958;
     float adcVoltage=getVoltage(adcRaw);
     float adcResist = getResistance(adcVoltage);
     float adcTemp = getTemperature(adcResist);
@@ -44,9 +46,7 @@ float getResistance(float Voltage)
 
 float getTemperature(float Resist)
 {
-    float Temp;
-    if(Resist>100)
-       Temp = (2.5846*Resist) - 258.46;
+    float Temperature = -245.3 + (2.349* Resist) + (POW(Resist)*0.001043);
 
-    return Temp;
+    return Temperature;
 }
